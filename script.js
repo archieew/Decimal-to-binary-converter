@@ -14,9 +14,10 @@ const decimalToBinary = (input) => {
     inputs.push(input);
     quotients.push(quotient);
     remainders.push(remainder);
-
     input = quotient;
   }
+
+console.log("Inputs: ",inputs)
 };
 
 const checkUserInput = () => {

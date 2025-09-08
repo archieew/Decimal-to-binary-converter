@@ -1,5 +1,5 @@
 const callStack = [
-  "a(): returns 'freeCodeCamp ' + 'is awesome!'"
+  
 ];
 
 const a = () => {

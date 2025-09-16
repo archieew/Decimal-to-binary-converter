@@ -13,7 +13,8 @@ const animationData = [
   },
   {
     inputVal: 1,
-    addElDelay: 2000
+    addElDelay: 2000,
+    msg: ""
   }
 ];
 
@@ -32,7 +33,7 @@ const showAnimation = () => {
     setTimeout(() => {
       animationContainer.innerHTML += `
         <p id="${obj.inputVal}" class="animation-frame">
-decimalToBinary(${obj.inputVal})
+          decimalToBinary(${obj.inputVal})
         </p>
       `;
     }, obj.addElDelay);

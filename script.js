@@ -51,9 +51,11 @@ const showAnimation = () => {
     }, obj.showMsgDelay);
 
     setTimeout(() => {
-document.getElementById(obj.inputVal).remove()
+      document.getElementById(obj.inputVal).remove();
     }, obj.removeElDelay);
   });
+
+setTimeout(() => {},20000)
 };
 
 const checkUserInput = () => {
